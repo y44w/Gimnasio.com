@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos: Diseño de Interiores & Gimnasio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome para íconos -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navegación Principal -->
+    <header class="main-header">
+        <div class="logo">PORTAFOLIO WEB</div>
+        <nav>
+            <ul>
+                <li><a href="#interiores" class="nav-link active">Diseño de Interiores</a></li>
+                <li><a href="#gimnasio" class="nav-link">Gimnasio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- PÁGINA 1: DISEÑO DE INTERIORES -->
+    <section id="interiores" class="page-section">
+        <header class="hero interiors-hero">
+            <div class="hero-content">
+                <h1>Espacios que Inspiran Vida</h1>
+                <p>Diseño de interiores exclusivo, moderno y funcional para tu hogar u oficina.</p>
+                <button class="btn btn-interiors" onclick="mostrarAlerta('Interiores')">Agendar Consulta</button>
+            </div>
+        </header>
+
+        <main class="container">
+            <h2>Nuestros Servicios de Diseño</h2>
+            <div class="cards-grid">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=600&q=80" alt="Residencial">
+                    <div class="card-body">
+                        <h3>Diseño Residencial</h3>
+                        <p>Transformamos ambientes para hacer de tu hogar un espacio acogedor y con estilo único.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80" alt="Comercial">
+                    <div class="card-body">
+                        <h3>Espacios Comerciales</h3>
+                        <p>Diseñamos oficinas y comercios optimizados para potenciar la productividad y tu marca.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=600&q=80" alt="Asesoría 3D">
+                    <div class="card-body">
+                        <h3>Renders & Asesoría 3D</h3>
+                        <p>Visualiza tu proyecto antes de construirlo con nuestras proyecciones fotorrealistas.</p>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </section>
+
+    <!-- PÁGINA 2: GIMNASIO -->
+    <section id="gimnasio" class="page-section" style="display: none;">
+        <header class="hero gym-hero">
+            <div class="hero-content">
+                <h1>Supera Tus Límites Hoy</h1>
+                <p>Entrenamiento de alto rendimiento, equipamiento moderno y entrenadores calificados.</p>
+                <button class="btn btn-gym" onclick="mostrarAlerta('Gimnasio')">Unirme Ahora</button>
+            </div>
+        </header>
+
+        <main class="container">
+            <h2>Planes de Entrenamiento</h2>
+            <div class="cards-grid">
+                <article class="card card-gym">
+                    <div class="card-body">
+                        <h3>Plan Básico</h3>
+                        <p class="price">$29/mes</p>
+                        <ul>
+                            <li>Acceso a zona musculación</li>
+                            <li>Vestuarios y duchas</li>
+                            <li>1 Evaluación inicial</li>
+                        </ul>
+                        <button class="btn btn-gym-card">Elegir Plan</button>
+                    </div>
+                </article>
+                <article class="card card-gym featured">
+                    <div class="card-body">
+                        <h3>Plan Pro</h3>
+                        <p class="price">$49/mes</p>
+                        <ul>
+                            <li>Acceso ilimitado 24/7</li>
+                            <li>Clases grupales incluidas</li>
+                            <li>Asesoría nutricional mensual</li>
+                        </ul>
+                        <button class="btn btn-gym-card">Elegir Plan</button>
+                    </div>
+                </article>
+                <article class="card card-gym">
+                    <div class="card-body">
+                        <h3>Plan VIP</h3>
+                        <p class="price">$79/mes</p>
+                        <ul>
+                            <li>Entrenador personal dedicado</li>
+                            <li>Acceso a zona Spa / Sauna</li>
+                            <li>Invitado gratis los fines de semana</li>
+                        </ul>
+                        <button class="btn btn-gym-card">Elegir Plan</button>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Portafolio de Páginas Web. Creado para GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
